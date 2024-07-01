@@ -1,7 +1,7 @@
 from exceptions.pdfexceptions import PDFValueError
 
 
-class PaethFilter:
+class PNGFilter:
     def paeth_predictor(self, left: int, above: int, upper_left: int) -> int:
         # From http://www.libpng.org/pub/png/spec/1.2/PNG-Filters.html
         # Initial estimate
